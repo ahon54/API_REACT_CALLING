@@ -9,7 +9,7 @@ export const Api = (props) => {
             .then(res => {
                 setUsers(res.data.results[0])
             }).catch(error => {
-                console.log(error)
+                console.log(error);
             })
     }, [])
 
